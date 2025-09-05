@@ -55,6 +55,15 @@
       .opening-hours span { display:block; }
       /* Remove topbar social spacing when icons are gone */
       .social-media{display:none!important}
+.about-bullets li { position: relative; padding-left: 28px; line-height: 1.6; }
+      .about-bullets li .fa-check { position: absolute; left: 0; top: 0.25em; width: 18px; text-align: center; }
+	  /* Remove default bullets for About section list */
+.about-bullets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
     </style>
   </head>
   <body>
@@ -267,8 +276,12 @@
                       <p>Madeira Beach, Treasure Island, St. Pete Beach, St. Petersburg, Seminole, Redington Shores, Indian Rocks & nearby Gulf Beaches.</p>
                     </div>
                     <div class="tab-pane container p-0 fade" id="value">
-                      <p>Mobile convenience • Clear estimates • OEM-grade parts • Meticulous workmanship • Friendly service.</p>
-                    </div>
+                      <ul class="about-bullets">
+                        <li><span class="fa fa-check"></span> Mobile convenience—dockside at your slip, lift, trailer, or marina.</li>
+                        <li><span class="fa fa-check"></span> Clear diagnostics, estimates, and communication the whole way.</li>
+                        <li><span class="fa fa-check"></span> OEM‑grade parts and neat, labeled wiring.</li>
+                        <li><span class="fa fa-check"></span> Friendly service and practical tips to keep you boating.</li>
+                      </ul>                    </div>
                   </div>
                 </div>
               </div>
